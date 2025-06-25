@@ -211,6 +211,15 @@ Falcon512_Unf = SISParameters(
     tag="Falcon512_Unf"
 )
 
+Basil = SISParameters(
+    n=128,
+    q=68719476736,
+    length_bound=16,
+    m=21234138,
+    norm=+Infinity,
+    tag="Basil"
+)
+
 Falcon512_SKR = NTRUParameters(
     n=512,
     q=12289,
